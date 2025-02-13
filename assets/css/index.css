@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url(./sectionOne.css);
+@import url(./sectionTwo.css);
+@import url(./sectionThree.css);
+@import url(./sectionFour.css);
+
+:root {
+    --principal-color: #5956E9;
+    --secondary-color: #232233;
+    --tertiary-color: #6C6C72;
+    --quaternary-color: #FFFFFF;
+    --font-family: 'Josefin Sans', serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--tertiary-color);
+}
