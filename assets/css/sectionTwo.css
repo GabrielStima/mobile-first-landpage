@@ -1,5 +1,5 @@
 #section-two {
-    .section-two-content {
+    .section-two-container {
         padding: 30px 30px 85px;
         
         .section-two-header {
@@ -18,7 +18,7 @@
             }
         }
 
-        .benefits {
+        .benefit {
             display: flex;
             flex-direction: column;
             height: 110px;
@@ -42,6 +42,25 @@
                     margin-right: 5px;
                 }
             }
+        }
+    }
+
+    .section-two-cell-demo {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        .section-two-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+    
+            .section-two-cell-demo {
+                display: flex;
+                width: 50%;
+                height: 50%;
+            } 
         }
     }
 }

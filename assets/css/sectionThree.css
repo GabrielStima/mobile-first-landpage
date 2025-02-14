@@ -1,6 +1,9 @@
 #section-three {
-    background-color: var(--principal-color);
-    color: var(--quaternary-color);;
+    background-image: url(../image/backgroundOne.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--quaternary-color);
 
     .section-three-content {
         padding: 30px 30px 85px;
@@ -34,6 +37,21 @@
                     font-size: 18px;
                     margin: 20px 0;
                     text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .section-three-content {
+            .features {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+
+                .feature {
+                    width: 300px;
                 }
             }
         }

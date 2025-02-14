@@ -26,7 +26,7 @@
                 align-items: center;
                 background-color: var(--principal-color);
                 border-radius: 10px;
-                padding: 20px;
+                padding: 15px;
                 color: var(--quaternary-color);
                 text-align: center;
 
@@ -41,4 +41,20 @@
         }
     }
 
+    .section-four-cell-demo {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .section-four-cell-demo {
+            display: flex;
+            width: 50%;
+            height: 50%;
+            padding-right: 20px;
+        }
+    }
 }

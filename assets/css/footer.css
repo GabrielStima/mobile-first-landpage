@@ -24,8 +24,8 @@
             justify-content: center;
 
             svg {
-                padding-right: 40px;
-                margin-right: 40px;
+                padding-right: 10px;
+                margin-right: 10px;
                 border-right: 1px solid var(--quaternary-color);
 
                 &:last-child {                
@@ -79,6 +79,7 @@
                 border-radius: 10px;
                 height: 50px;
                 padding-left: 20px;
+                border: none;
             }
 
 
@@ -98,5 +99,16 @@
         width: 100%;
         border-top: 1px solid var(--quaternary-color);
         padding-top: 20px;
+    }
+
+    @media screen and (min-width: 375px) {
+        .about {
+            .socials {
+                svg {
+                    padding-right: 30px;
+                    margin-right: 30px;
+                }
+            }
+        }
     }
 }
