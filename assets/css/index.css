@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url(./header.css);
 @import url(./sectionOne.css);
 @import url(./sectionTwo.css);
 @import url(./sectionThree.css);
 @import url(./sectionFour.css);
+@import url(./sectionFive.css);
+@import url(./sectionSix.css);
+@import url(./footer.css);
 
 :root {
     --principal-color: #5956E9;

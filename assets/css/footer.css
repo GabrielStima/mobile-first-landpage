@@ -1,0 +1,102 @@
+.footer-content {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    padding: 30px;
+
+    .about {
+        margin-bottom: 30px;
+
+        .logo {
+            background-color: var(--quaternary-color);
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            margin-bottom: 20px;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        .socials {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+
+            svg {
+                padding-right: 40px;
+                margin-right: 40px;
+                border-right: 1px solid var(--quaternary-color);
+
+                &:last-child {                
+                    padding-right: 0;
+                    margin-right: 0;
+                    border-right: none;
+                }
+            }
+        }
+    }
+
+    .quick-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 20px;
+            margin: 20px 0;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        a {
+            color: var(--quaternary-color);
+            text-decoration: none;
+            margin-bottom: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .newsletter {
+        h2 {
+            font-size: 20px;
+            margin: 20px 0;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .newsletter-input {
+            margin: 30px 0 80px;
+            display: flex;
+            align-items: center;
+
+            input {
+                width: calc(100% - 20px);
+                border-radius: 10px;
+                height: 50px;
+                padding-left: 20px;
+            }
+
+
+            button {
+                position: absolute;
+                right: 35px;
+                height: 46px;
+                width: 48px;
+                border-radius: 10px;
+                border: none;
+                background-color: var(--principal-color);
+            }
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        border-top: 1px solid var(--quaternary-color);
+        padding-top: 20px;
+    }
+}
