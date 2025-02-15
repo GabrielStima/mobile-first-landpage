@@ -74,4 +74,11 @@
             margin-top: 30px;
         }
     }
+
+    @media screen and (min-width: 1600px) {
+        .section-four-cell-demo {
+            width: 30%;
+            height: 30%;
+        }
+    }
 }
