@@ -63,4 +63,24 @@
             } 
         }
     }
+
+    @media screen and (min-width: 1024px) {
+        .section-two-content {
+            gap: 40px;
+
+            .section-two-cell-demo {
+                width: 30%;
+                height: 30%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+        .section-two-content {
+            .section-two-cell-demo {
+                width: 20%;
+                height: 20%;
+            }
+        }
+    }
 }

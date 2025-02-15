@@ -44,4 +44,22 @@
       width: 30vw;
      }
    }
+
+   @media screen and (min-width: 1024px) {
+    .section-one-cell-demo {
+      width: 25vw;
+     }
+   }
+
+   @media screen and (min-width: 1440px) {
+    .section-one-cell-demo {
+      width: 20vw;
+     }
+   }
+
+   @media screen and (min-width: 1600px) {
+    .section-one-cell-demo {
+      width: 15vw;
+     }
+   }
 }

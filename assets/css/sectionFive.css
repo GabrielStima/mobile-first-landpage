@@ -91,4 +91,14 @@
             }
         } 
     }
+
+    @media screen and (min-width: 1024px) {
+        .section-five-content {
+            .section-five-team {
+                .teammate {
+                    width: 25%;
+                }
+            }
+        } 
+    }
 }
