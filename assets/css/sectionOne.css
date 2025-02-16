@@ -1,65 +1,57 @@
 #section-one {
-   background-image: url(../image/backgroundOne.webp);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   padding: 9rem 0 5.3rem;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   gap: 1.2rem;
+  background-image: url(../image/backgroundOne.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 9rem 0 5.3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
 
-   .section-one-content {
-        background-color: var(--quaternary-color);;
-        max-width: 20.4rem;
-        padding: 1.2rem;
+  .section-one-content {
+    background-color: var(--quaternary-color);
+    max-width: 20.4rem;
+    padding: 1.2rem;
 
-        h1 {
-          text-align: center;  
-          font-size: 1.5rem;
-          color: var(--principal-color);
-          margin: 1.2rem 0;
-          font-weight: bold;
-          text-transform: uppercase;
-        }
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      color: var(--principal-color);
+      margin: 1.2rem 0;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
 
-        h2 {
-            font-size: 1.2rem;
-            color: var(--secondary-color);
-            margin: 1.2rem 0;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-   }
-
-   .section-one-cell-demo {
+  .section-one-cell-demo {
     width: 70vw;
-   }
+  }
 
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
 
     .section-one-cell-demo {
       width: 30vw;
-     }
-   }
+    }
+  }
 
-   @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .section-one-cell-demo {
       width: 25vw;
-     }
-   }
+    }
+  }
 
-   @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .section-one-cell-demo {
       width: 20vw;
-     }
-   }
+    }
+  }
 
-   @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1600px) {
     .section-one-cell-demo {
       width: 15vw;
-     }
-   }
+    }
+  }
 }

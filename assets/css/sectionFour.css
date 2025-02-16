@@ -1,17 +1,7 @@
 #section-four {
-    .section-four-content {
-        padding: 1.8rem 1.8rem 5.3rem;
-
+    .section-content {
         .section-four-header {
             margin: 1.8rem 0;
-
-            h2 {
-                font-size: 1.2rem;
-                color: var(--secondary-color);
-                margin: 1.2rem 0;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
         }
 
         .section-four-infos {
@@ -61,7 +51,7 @@
     @media screen and (min-width: 1024px) {
         padding: 0 50px;
 
-        .section-four-content {
+        .section-content {
             .section-four-infos {
                 justify-content: flex-start;
                 gap: 1.2rem;
