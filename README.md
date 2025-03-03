@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">This project is intended to form part of my portfolio. With this project, I intend to improve my basic skills by creating a landpage using the mobile-first technique.</p>
+<p align="left">This project is intended to form part of my portfolio. With this project, I intend to improve my basic skills by creating a landpage using the mobile-first technique. AI was not used ❌</p>
 
 ###
 
